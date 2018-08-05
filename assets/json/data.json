@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Strengths", 
+        "color": "tr-dark text-light", 
+        "items" : [
+                    "Sangat menyukai pemograman",
+                    "Suka mencoba hal baru",
+                    "Berkata jujur",
+                    "Memiliki fokus tinggi",
+                    "Mandiri",
+                    "Cepat memahami sesuatu",
+                    "Memiliki kemauan yang kuat",
+                    "Disiplin waktu",
+                    "Selalu melakukan semuanya semaksimal mungkin",
+                    "Serius dalam situasi apapun",
+                    "Pantang menyerah",
+                    "Suka memandang permasalahan dari dua sisi yang berbeda",
+                    "Cepat termotivasi apabila melihat orang yang lebih hebat"
+                   ]},
+    {
+        "title": "Weaknesses", 
+        "color": "tr-light text-dark", 
+        "items" : [
+                    "Suka ragu-ragu",
+                    "Sulit membangun komunikasi dengan orang baru",
+                    "Sulit bekerjasama",
+                    "Sulit memberikan kepercayaan kepada orang lain",
+                    "Kurang kemampuan berbahasa asing",
+                    "Keras kepala",
+                    "Pelupa",
+                    "Kurang percaya diri apabila berbicara di depan umum"
+                  ]},
+    {
+        "title": "Opportunities", 
+        "color": "tr-dark text-light", 
+        "items" : [
+                    "Teknologi yang semakin berkembang",
+                    "Banyaknya dibutuhkan tenaga web programmer",
+                    "Semakin mudahnya bahasa pemograman web",
+                    "Besarnya dukungan keluarga"
+                  ]},
+    {
+        "title": "Threats", 
+        "color": "tr-light text-dark", 
+        "items" : [
+                    "Programmer yang lebih hebat",
+                    "Semakin banyak varian library dan framework dalam web developing"
+                  ]}
+]
