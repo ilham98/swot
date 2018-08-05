@@ -7,13 +7,6 @@
     <title>SWOT ~ Ilham</title>
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="assets/styles/loader.css">
-    <script src="assets/scripts/jquery.js"></script>
-    <script>
-        $(window).on('load',function(){
-            $('.preloader').fadeOut(1000);
-            $('.container').fadeIn(1000);
-        })
-    </script>
 </head>
 <body>
     <div class="preloader">
@@ -65,7 +58,11 @@
 </body>
 <script src="assets/scripts/anime.min.js"></script>
 <script src="assets/scripts/app.js"></script>
+<script src="assets/scripts/jquery.js"></script>
 <script>
-    
+    $(document).ready(function(){
+        $('.preloader').fadeOut(1000);
+        $('.container').fadeIn(1000);
+    })
 </script>
 </html>
