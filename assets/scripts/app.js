@@ -1,7 +1,5 @@
 $(document).ready(function () {
     $('.preloader').fadeOut(1000);
-
-    var loadData = function(){
     $.getJSON("assets/json/data.json", function (data) {
         var x = data;
         change(0);
@@ -54,11 +52,8 @@ $(document).ready(function () {
                     }
                 });
         }
-    });
-    }
-
-    $.when(loadData()).done(function(){
+    }).promise().done(function(){
         $('.container').fadeIn(1000);
-    })
+    });
 });
 
